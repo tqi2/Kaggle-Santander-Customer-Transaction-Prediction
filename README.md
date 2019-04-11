@@ -3,6 +3,10 @@ Top 0.5% rankings (46/9038) code sharing for Kaggle competition: Santander Custo
 
 * 922VarNoShuffle.py: Apply var transformation and shuffling (augmentation)
 * 923Var_Shuffle.py: Apply var transformation only
-* Stacking.ipynb: model stacking (final model)
+* Stacking.ipynb: model stacking (final model) using linear stacking
 * bayesian_lgbm.py: hyper-parameter tuning for lightgbm
+* pipline: separate pipeline script 
 
+Final pipeline: Raw data -> Data.py -> Stacking.py
+
+Original data set can be downloaded from the competition page
